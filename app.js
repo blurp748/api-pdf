@@ -5,14 +5,14 @@ const express = require('express')
 const app = express();
  
 // The folder path for the files
-const folderPath = __dirname+'/Files';
+const folderPath = __dirname+'/files';
  
 // GET request for single file
-app.get('/single',function(req,res) {
+app.get('/cv',function(req,res) {
     console.log('single file');
      
     // Download function provided by express
-    res.download(folderPath+'/single_gfg.txt', function(err) {
+    res.download(folderPath+'/cv.pdf', function(err) {
         if(err) {
             console.log(err);
         }
