@@ -1,10 +1,11 @@
 This is a basic example of how to create an API in Express
 
-<h1>Project setup</h1>
+## Project setup
 ```
-npm install 
+npm install
 ```
-<h2>Run</h2>
+
+### Run
 ```
-node app.js
+node server.js
 ```
